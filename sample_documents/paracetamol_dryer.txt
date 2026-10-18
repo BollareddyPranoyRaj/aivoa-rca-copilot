@@ -1,0 +1,25 @@
+FROM: Shift Supervisor - API Drying & Milling <shift.supervisor@pharma-api.com>
+TO: QA Deviation Group <qa.deviations@pharma-api.com>; Production Manager <prod.lead@pharma-api.com>
+DATE: October 15, 2024 06:40 AM
+SUBJECT: URGENT: Temperature Excursion & Vacuum Collapse - Dryer VTD-03 (Batch PCM-24-301)
+
+Dear QA Team,
+
+Please log an urgent deviation for Batch PCM-24-301 (Paracetamol DC Grade API, 1,200 kg wet cake).
+
+At 04:15 AM during vacuum drying cycle Step 4 in Vacuum Tray Dryer VTD-03:
+1. Chamber vacuum suddenly collapsed from operating pressure 20 mbar to 850 mbar within 12 minutes.
+2. Simultaneously, shelf heating temperature spiked from setpoint 55°C up to 74.2°C. The SOP-VTD-03 maximum allowable product temperature is 60°C.
+3. The high-temperature excursion persisted for approximately 38 minutes before operators manually closed the steam isolating valves and purged the chamber with nitrogen.
+
+Initial Actions Taken:
+- Heating medium manually shut off and cooling water circulated to bring shelf temperature below 30°C.
+- Batch PCM-24-301 held inside VTD-03 with QA red quarantine tags applied.
+- Instrumentation technician called in. Preliminary inspection found the condensate steam trap ST-301 was completely seized shut with rust scale, preventing condensate removal and causing water hammer and thermal buildup.
+- Inline boiler condensate return pH sensor was found unplugged from calibration work done last week.
+
+Product Quality Concern:
+Exposure to 74°C in presence of residual moisture risks thermal hydrolysis into 4-aminophenol impurity. QC samples are being drawn for urgent HPLC testing.
+
+Regards,
+Rajesh Sharma | Shift In-Charge, Drying Suite 2

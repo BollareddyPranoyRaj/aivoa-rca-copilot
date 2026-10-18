@@ -1,0 +1,21 @@
+PHARMACEUTICAL QUALITY INCIDENT REPORT - API MANUFACTURING
+Document ID: QIR-2024-0419 | Severity: CRITICAL | Facility: API Block 3, Reaction & Crystallization
+
+INCIDENT SUMMARY:
+During finished product release testing of Atorvastatin Calcium Trihydrate API, Batch No. ATC-24-089 (Commercial Batch Size: 450 kg), QC laboratory reported an Out-of-Specification (OOS) result for Related Substance Impurity D.
+- Specification Limit: NMT 0.15% (w/w) by Reverse Phase HPLC
+- Test Result Obtained: 0.24% (duplicate re-injections confirmed 0.238% and 0.241%)
+- Initial Impact: Batch quarantined in Warehouse Q-41. Upstream intermediate lot L1-2024-118 put on hold.
+
+CHRONOLOGY & PROCESS OBSERVATIONS:
+On 18-Oct-2024, at 01:15 UTC, crystallization was initiated in Crystallizer CR-302 per SOP-PR-302. Turbidity probe confirmed crystallization seeding endpoint at 01:45 UTC.
+Per recipe, slurry was to be held at 42°C for transfer to Nutsche Filter Dryer FD-04. Transfer was scheduled for 02:00 UTC.
+At 02:15 UTC, the operator attempted to initiate transfer to FD-04, but the automated transfer valve interlock failed to open. The DCS annunciated a high differential pressure alarm on the FD-04 mechanical seal nitrogen barrier fluid.
+The shift operator contacted the utility maintenance team, but response was delayed due to shift turnover. Slurry remained in Crystallizer CR-302 under continuous agitation at 42.4°C until 07:45 UTC (total holding time: 6 hours 30 minutes, exceeding validated maximum hold time of 2.0 hours).
+Transfer was finally initiated at 08:00 UTC after maintenance replaced the nitrogen pressure regulator.
+
+LABORATORY & METROLOGY FINDINGS:
+1. QC Laboratory Investigation (OOS-QC-2024-88) ruled out analytical testing error. System suitability criteria, column resolution (>2.2), and standard precision (%RSD 0.4%) were all compliant.
+2. LC-MS spectral characterization confirmed the impurity at RRT 1.42 is the bis-hydroxy oxidative degradation adduct of Atorvastatin.
+3. SCADA Historian trend TI-CR302-01 confirmed vessel temperature was 42.1°C to 42.8°C for 6.5 hours.
+4. Maintenance report WO-ENG-2024-0982 noted that the upstream 0.2μm nitrogen filter had particulate fouling, and the automated alarm delta threshold had been bypassed in DCS 3 weeks earlier during instrument routine maintenance without Change Control.

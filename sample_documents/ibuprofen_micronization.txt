@@ -1,0 +1,20 @@
+QUALITY INVESTIGATION NOTIFICATION - API FINISHING & PACKAGING
+Incident Ref: QIN-2024-0633 | Unit: Cleanroom Finishing Suite 5 | Date: 20-Oct-2024
+
+SUMMARY:
+During final sieving and fiber drum filling of Ibuprofen API Batch IBU-24-190 (Batch size: 1,500 kg), the packaging operator noticed fine metallic shiny specks adhered to the 12,000 Gauss rare-earth magnetic grate installed at the discharge chute of Fluidized Bed Jet Mill JM-02.
+
+IMMEDIATE CONTAINMENT:
+- Jet Mill JM-02 was immediately stopped and tagged out of service.
+- All 20 fiber drums of Batch IBU-24-190 were quarantined in packaging airlock with red quarantine tape.
+- QA and Maintenance called for inspection.
+
+INVESTIGATION FINDINGS:
+1. Microscopic & SEM-EDX Examination:
+QC analytical laboratory analyzed the collected flakes under SEM-EDX (Report LAB-EDX-2024-44). Particles ranged from 150 μm to 420 μm. Elemental spectrum showed 68% Fe, 18% Cr, 12% Ni, 2% Mo, confirming Austenitic Stainless Steel Grade 316L.
+2. Equipment Inspection:
+Boroscope inspection of Jet Mill JM-02 revealed visible circular scoring along the upper chamber liner, corresponding to the outer circumference of the dynamic classifier wheel.
+3. Teardown of Upper Bearing Assembly:
+Upon dismantling the classifier drive assembly, technicians measured axial shaft play of 0.85 mm (design tolerance: 0.02 - 0.05 mm). The ceramic hybrid bearings had experienced severe race spalling and cage destruction.
+4. Maintenance Records:
+CMMS history showed that Jet Mill JM-02 was overdue for its 6-month vibration condition monitoring and bearing inspection by 45 days. Production scheduling had deferred the work order citing high commercial demand.
